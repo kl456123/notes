@@ -27,3 +27,8 @@ zeros_grad
 * 2d tensor index
 
 * check if it can backward
+
+
+* index out of range
+
+* += , -= is different from your thoughts
