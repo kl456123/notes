@@ -11,6 +11,8 @@
 6. bbox normalized means and stds
 7. random crop according to aspect and iou
 8. image should do the same operation in both training and testing(e.g, subtract mean and divide std)
+9. image of type float32  should be converted to unit8 first before using Image.fromarray
+10. weight is very important to regress bbox
 
 
 
