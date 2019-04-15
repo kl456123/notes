@@ -14,6 +14,8 @@
 9. image of type float32  should be converted to unit8 first before using Image.fromarray
 10. weight is very important to regress bbox
 11. config should be the same in any where
+12. repeat is increase dim at the front side, NOT the tail side
+13. in fpn, you should keep the order of roi_batch
 
 
 
