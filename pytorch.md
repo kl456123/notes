@@ -32,3 +32,11 @@ zeros_grad
 * index out of range
 
 * += , -= is different from your thoughts
+
+
+# some tricks
+use load_state_dict(strict=False) to load pretrained model
+
+
+# batch_norm
+when in eval or train mode, results is different

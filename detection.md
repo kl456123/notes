@@ -16,6 +16,14 @@
 11. config should be the same in any where
 12. repeat is increase dim at the front side, NOT the tail side
 13. in fpn, you should keep the order of roi_batch
+14. loss normalize or not
+15. cls loss normalized by num_pos
+16. too large batch size may drop the performance in one_stage
+17. using ohem is helpful for training classification
+18. keypoint encode may be better than that of fasterrcnn(more smooth)
+19. reweight between multi-task is very important
+20. fraction in first stage should be slow(e,g fg_fraction=0.25) to suppress bg
+21. prediction more meaningful thing not according to its distance
 
 
 

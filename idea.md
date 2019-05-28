@@ -39,3 +39,9 @@
 20.  amplify the images
 
 21. do not train bbox reg, valid the influence of the cls branch
+
+22. points in overlaps between two gt bboxes are not regressed(contrast)
+
+23. automatic select is All you need according to the loss
+
+24. scores for the boundary

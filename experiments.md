@@ -79,3 +79,13 @@ multiple pooling
     * detach_sinet res50 576*1920
     * detach res50 384*1280 88.9
     * detach_sinet 384*1280 89.2
+
+
+## new experiments
+1. fg thresh should be low(e,g 0.3) for predicting 3d bbox proj
+2. more data or more data augmentation so that the recall is descend
+3. rear_side cannot predicted well so that is orientation is not smooth
+4. image size is very import 
+5. 3d bbox proj is very hard to predict than 2d bbox
+6. when 3d bbox is truncated(outside of image), its projection may be very large
+so that cannot match any anchor(just be ignored)
